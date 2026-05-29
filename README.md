@@ -1,1 +1,15 @@
-🎵 Project Showcase: Myuloc – Zero-Code Offline Music Player The Prompt Engineering Challenge Project Overview Myuloc is a fully functional, offline Android music player built with zero manual coding. Instead of writing traditional Java or Kotlin line-by-line, I acted as the Product Manager and Architect, leveraging Google AI Studio to handle 100% of the core mobile development.  The entire application was engineered purely through strategic, iterative prompting—translating a precise visual and functional blueprint into a working mobile application.  🚀 Development Approach & Skills Demonstrated Instead of focusing on syntax, the execution relied entirely on high-level system design and meticulous communication with the AI:  UI/UX Wireframing via Text: I provided highly descriptive, structured prompts detailing the exact visual hierarchy, component layout, and user flows to give Myuloc a clean, modern, and seamless user interface.  Functional Architecture Prompting: I systematically guided Google AI Studio to implement core Android functionalities, including local storage scanning for audio files, media playback lifecycles (play, pause, skip), and background audio services.  Iterative Problem Solving: When edge cases or execution bugs arose, I diagnosed the behavior and fed structured correction prompts back into the AI, refining the application without ever touching a code editor.
+🎵 Project Showcase: Myuloc – Zero-Code Offline Music Player
+The Prompt Engineering Challenge
+Project Overview
+Myuloc is a fully functional, offline Android music player built with zero manual coding. Instead of writing traditional Java or Kotlin line-by-line, I acted as the Product Manager and Architect, leveraging Google AI Studio to handle 100% of the core mobile development.
+
+The entire application was engineered purely through strategic, iterative prompting—translating a precise visual and functional blueprint into a working mobile application.
+
+🚀 Development Approach & Skills Demonstrated
+Instead of focusing on syntax, the execution relied entirely on high-level system design and meticulous communication with the AI:
+
+UI/UX Wireframing via Text: I provided highly descriptive, structured prompts detailing the exact visual hierarchy, component layout, and user flows to give Myuloc a clean, modern, and seamless user interface.
+
+Functional Architecture Prompting: I systematically guided Google AI Studio to implement core Android functionalities, including local storage scanning for audio files, media playback lifecycles (play, pause, skip), and background audio services.
+
+Iterative Problem Solving: When edge cases or execution bugs arose, I diagnosed the behavior and fed structured correction prompts back into the AI, refining the application without ever touching a code editor.
