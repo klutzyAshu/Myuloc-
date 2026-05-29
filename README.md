@@ -1,10 +1,4 @@
-
-Conversation with Gemini
-can you generate me a description for prompt generation skills showcase that i created a music player offline app using only google ai studios and it tooks me zero coding i only provided it the ui stucture by describing it what you have to create and how the ui ux will looks and all core android development will done by ai studios
-
-Here is a compelling, high-impact project description tailored for a skills showcase, portfolio, or LinkedIn post. It highlights your prompt engineering skills and strategic thinking rather than traditional coding.
-
-🎵 Project Showcase: Zero-Code Offline Music Player
+🎵 Project Showcase: Zero-Code Music Player(Myuloc)
 The Prompt Engineering Challenge
 Project Overview
 I built a fully functional, production-ready Offline Android Music Player App with zero manual coding. Instead of writing Java or Kotlin line-by-line, I acted as the Product Manager and Lead Architect, leveraging Google AI Studio to handle 100% of the core Android development.
