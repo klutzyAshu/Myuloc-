@@ -1,0 +1,6 @@
+{
+  "name": "MyuLoc",
+  "description": "Cloud-Integrated Minimalist Music Ecosystem with Glassmorphism, Google Drive Locker, and Online YouTube Streaming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

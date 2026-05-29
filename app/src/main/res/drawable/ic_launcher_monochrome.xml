@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Planet outline / outer ring -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:pathData="M 54,54 m -28,0 a 28,28 0 1,1 56,0 a 28,28 0 1,1 -56,0" />
+
+    <!-- Left stem of letter mu ('µ') -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 45,45 L 45,65" />
+
+    <!-- Continuous U-curve and right stem of letter mu -->
+    <path
+        android:strokeColor="#FF000000"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 45,52 C 45,61 54,61 54,52 L 54,61 C 54,63 56,64 58,64" />
+
+</vector>

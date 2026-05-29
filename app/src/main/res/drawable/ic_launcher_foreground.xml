@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Translucent black atmospheric glow / orbital ring around the planet -->
+    <path
+        android:strokeColor="#40000000"
+        android:strokeWidth="1.5"
+        android:pathData="M 54,54 m -30.5,0 a 30.5,30.5 0 1,1 61,0 a 30.5,30.5 0 1,1 -61,0" />
+
+    <!-- Pure solid clay-brown planet surface sphere -->
+    <path
+        android:fillColor="#B06540"
+        android:pathData="M 54,54 m -28,0 a 28,28 0 1,1 56,0 a 28,28 0 1,1 -56,0" />
+
+    <!-- Organic black continent landmass 1 (Top Right) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 56,30 C 64,30 74,38 72,48 C 70,54 62,54 58,46 C 54,38 52,30 56,30 Z" />
+
+    <!-- Organic black continent landmass 2 (Bottom Left) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 34,48 C 30,54 36,68 44,72 C 50,74 54,66 48,60 C 44,56 38,44 34,48 Z" />
+
+    <!-- Organic black continent landmass 3 (Small Top Left) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 40,32 C 44,32 46,38 42,40 C 38,42 36,36 40,32 Z" />
+
+    <!-- Organic black continent landmass 4 (Small Bottom Right) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 62,64 C 66,62 72,66 70,72 C 68,76 60,74 62,64 Z" />
+
+    <!-- Glossy planet edge shading highlight -->
+    <path
+        android:strokeColor="#2Fffffff"
+        android:strokeWidth="1.0"
+        android:pathData="M 54,54 m -27.5,0 a 27.5,27.5 0 1,1 55,0 a 27.5,27.5 0 1,1 -55,0" />
+
+    <!-- Custom elegant bold White 'µ' (Greek symbol Mu) centered on top of planet -->
+    <!-- Left descender stem of letter mu -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 45,45 L 45,65" />
+
+    <!-- Continuous U-curve and right-hand stem of letter mu -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 45,52 C 45,61 54,61 54,52 L 54,61 C 54,63 56,64 58,64" />
+
+</vector>
