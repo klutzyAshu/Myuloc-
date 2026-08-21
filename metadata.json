@@ -1,0 +1,6 @@
+{
+  "name": "MyuLoc",
+  "description": "Ultra-Responsive Minimalist Local Music Player with High-Fidelity Glassmorphic Aesthetics and Dynamic Adaptive Themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

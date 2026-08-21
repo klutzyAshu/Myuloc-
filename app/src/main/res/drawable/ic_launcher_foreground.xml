@@ -1,0 +1,83 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.8"
+        android:scaleY="0.8">
+
+        <!-- Stylized Outer Hexagonal Ring (Light/Dark adaptive colors, elegant thin/thick styling) -->
+        <!-- Top-left to top to top-right to right edge part -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M 20,44 L 20,36 L 54,16 L 88,36 L 88,44" />
+
+        <!-- Bottom-left to bottom to bottom-right to right edge part -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M 20,64 L 20,72 L 54,92 L 88,72 L 88,64" />
+
+        <!-- Left outer parallel accent bar (Symmetric to the image structure) -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4.0"
+            android:strokeLineCap="round"
+            android:pathData="M 28,42 L 28,66" />
+
+        <!-- Right outer parallel accent bar -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4.0"
+            android:strokeLineCap="round"
+            android:pathData="M 80,42 L 80,66" />
+
+        <!-- Interlocking geometric structural paths (Circuits style, matching the image) -->
+        <!-- Diagonal top-left connecting bridge -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M 54,16 L 36,26 L 36,50" />
+
+        <!-- Diagonal bottom-right connecting bridge -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M 36,58 L 36,82 L 54,92" />
+
+        <!-- Diagonal inner lines -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M 72,26 L 72,82" />
+
+        <!-- Intersecting tech accent -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:pathData="M 36,68 L 72,50" />
+
+        <!-- Standard play button inside -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 46,39 L 46,69 L 70,54 Z" />
+
+    </group>
+
+</vector>

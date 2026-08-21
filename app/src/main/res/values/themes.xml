@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Native Window level styling to prevent overdraw and reduce latency -->
+        <item name="android:windowBackground">@color/global_background</item>
+        <item name="android:windowAnimationStyle">@null</item>
+
+        <!-- Core Material 3 color overrides -->
+        <item name="colorPrimary">@color/accent_berry_pink</item>
+        <item name="colorSurface">@color/surface_capsule</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+
+        <!-- Dynamic theme integrations -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Shape & Style overrides for unified capsule curves -->
+        <item name="materialCardViewStyle">@style/Widget.App.CapsuleCard</item>
+    </style>
+
+    <!-- High-radius capsule containers mimicking reference visual -->
+    <style name="Widget.App.CapsuleCard" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/surface_capsule</item>
+        <item name="strokeColor">#1AFFFFFF</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.Capsule</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Capsule" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="windowSplashScreenBackground">@color/global_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyApplication</item>
+    </style>
+</resources>
