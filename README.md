@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MyuLoc 🎵
 
 MyuLoc is a cloud-integrated, minimalist music player ecosystem built for Android, written entirely in **Kotlin** and designed with a visually stunning, premium **Jetpack Compose** interface. 
@@ -89,3 +90,6 @@ gradle compileDebugKotlin
 
 ## 📄 License
 This project is open-source and available under the MIT License.
+=======
+
+>>>>>>> 04344fbc7aeeff4199356050a8d488733e2e3d1f
